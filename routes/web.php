@@ -31,6 +31,7 @@ Route::middleware('only_guest')->group(function(){
     Route::get('/', [AuthController::class, 'login'])->name('login');
     Route::post('/', [AuthController::class, 'authenticating']);
     Route::get('/SignUp', [AuthController::class, 'register'])->name('register');
+    Route::post('/SignUp', [AuthController::class, 'registerProcess'])->name('registerProcess');
 });
 
 // Group for auth middleware

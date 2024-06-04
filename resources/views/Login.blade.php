@@ -89,13 +89,14 @@
           </div>
           <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
         </div>
+        <div class="mb-5 flex justify-center">
+            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign In</button>
+        </div>
         <div class="flex items-start mb-5" >
             <div class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                Don't have Account yet? <a href="SignUp" class="text-blue-600 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">SignUp</a>
+                Don't have Account yet? <a href="SignUp" class="text-blue-600 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">SignUp</a>
             </div>
         </div>
-
-        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign In</button>
       </form>
   </div>
 
