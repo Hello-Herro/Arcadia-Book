@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('username')->unique();
             $table->string('password');
             $table->string('status')->default('inactive');
-            $table->binary('photo_rent');
+            $table->binary('photo_rent')->nullable();
             $table->timestamps();
         });
     }
